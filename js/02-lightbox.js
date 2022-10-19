@@ -18,7 +18,7 @@ const markup = galleryItems.reduce(
 
 refs.gallery.insertAdjacentHTML("beforeend", markup);
 
-var lightbox = new SimpleLightbox(".gallery a", {
+const lightbox = new SimpleLightbox(".gallery a", {
   captions: true,
   captionSelector: "img",
   captionType: "attr",
